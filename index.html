@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paarth More | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Paarth</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="themeToggle">🌙</button></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Home -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Paarth More</h1>
+    <p>Electrical & Computer Engineering Student | EV & WPT Enthusiast</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a B.Tech student at MIT-WPU, Pune, passionate about Wireless Power Transfer, 
+    Electric Vehicles, and Embedded Systems. I enjoy building practical projects 
+    that combine hardware and software.
+  </p>
+
+  <h3>Skills</h3>
+  <ul class="skills">
+    <li>HTML, CSS, JavaScript</li>
+    <li>Embedded C, ESP32</li>
+    <li>Power Electronics</li>
+    <li>Microcontrollers</li>
+  </ul>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section">
+  <h2>My Projects</h2>
+
+  <div class="project-grid">
+
+    <div class="project">
+      <img src="images/wpt.jpg" alt="WPT Project">
+      <h3>Wireless Power Transfer System</h3>
+      <p>
+        Designed a 1kW inductive wireless power transfer system using a full-bridge inverter
+        for EV charging applications.
+      </p>
+    </div>
+
+    <div class="project">
+      <img src="images/health.jpg" alt="Health Monitoring System">
+      <h3>Health Monitoring System</h3>
+      <p>
+        Built an ESP32-based health monitoring system using MAX30102, DS18B20, and DHT11 sensors.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+    <p id="error"></p>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Paarth More. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
