@@ -37,3 +37,10 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// Show hero immediately
+window.addEventListener("load", () => {
+  document.querySelectorAll(".section").forEach(sec => {
+    sec.style.opacity = 1;
+    sec.style.transform = "translateY(0)";
+  });
+});
